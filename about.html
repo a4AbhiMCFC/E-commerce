@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Home</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+    />
+    <!-- Bootstrap -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <!-- Top navbar -->
+    <div class="top-navbar">
+      <p>Welcome to our Site..</p>
+      <span>Don't have an account? Sign up Here
+        <a href="signup.html">
+        <button type="button" class="btn btn-secondary search-btn">Sign Up</button>
+    </button>
+  </a>
+      </span>
+      <div class="icons">
+        <a href="wishlist.html">
+          <i class="fa-regular fa-heart"></i>
+        </a>
+        <a href="cart.html">
+          <i class="fa-regular fa-cart-shopping"></i>
+        </a>
+        <a href="login.html">
+          <i class="fa-regular fa-user"></i>
+          <strong>Log In</strong>
+        </a>
+      </div>
+    </div>
+    <!-- Finished Top navbar -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light" id="navbar">
+   <div class="col-lg-2 col-md-2">
+            <div class="main-logo">
+              <a href="index.html">
+                <img src="images/logoo.png" alt="logo" />
+              </a>
+            </div>
+          </div>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="about.html">About Us</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link " aria-current="page" href="shop.html">Shop</a>
+              </li>
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle"
+                href="product.html"
+                id="navbarDropdown"
+                role="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              >
+                Products
+              </a>
+              <ul class="dropdown-menu" aria-labelledby="navbarDropdown" style="background-color:  rgb(238, 228, 215);"> 
+                <li><a class="dropdown-item" href="product.html">Jersey</a></li>
+                <li><a class="dropdown-item" href="product.html">Boots</a></li>
+                <li><a class="dropdown-item" href="product.html">Balls</a></li>
+                <li><a class="dropdown-item" href="product.html">Jackets</a></li>
+                <li><a class="dropdown-item" href="product.html">Bags</a></li>
+                <li><hr class="dropdown-divider" /></li>
+                <li>
+                  <a class="dropdown-item" href="errror.html">Signed Jersey</a>
+                </li>
+              </ul>
+              <li class="nav-item">
+                <a class="nav-link " aria-current="page" href="contact.html">Contact</a>
+              </li>
+            </li>
+          </ul>
+          <form class="d-flex" id="search">
+            <input
+              class="form-control me-2"
+              type="search"
+              placeholder="Search Here..."
+              aria-label="Search"
+            />
+            <button type="button" class="btn btn-secondary search-btn">Search</button>
+            </button>
+          </form>
+        </div>
+      </div>
+    </nav>
+    <!-- Nav ends -->
+    
+          <!-- Carousel ends -->
+           <!-- Main content -->
+           <main>
+            <section class="about-section">
+                <div class="container">
+                    <div class="about-content">
+                        <div class="about-image">
+                            <img src="images/about.jpg" alt="About Us Photo">
+                        </div>
+                        <div class="about-text">
+                            <h1>About Us</h1>
+                            <p>Welcome to our e-commerce website. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                            <p>We are committed to providing high-quality products and excellent customer service to our valued customers.</p>
+                        
+                            <p>Our mission is to make online shopping convenient, enjoyable, and secure for everyone.</p>
+    
+                            <p>We have a dedicated team of professionals who are passionate about e-commerce and strive to exceed customer expectations.</p>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt nobis vero quis eos magni aliquam rem eum? Tempore, laborum. Modi rerum voluptates consequuntur ab optio et, eius vero ex animi.</p>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Excepturi placeat suscipit eius ad vel ipsa aut voluptas accusantium vitae dolorum repellat a, quidem cum non asperiores quae officiis possimus ratione.</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+    
+            <section class="reviews-section">
+                <div class="container">
+                    <h2>Customer Reviews</h2>
+                    <div id="reviews-slider" class="swiper-container">
+                        <div class="swiper-wrapper">
+                            <div class="swiper-slide">
+                                <div class="review">
+                                    <i class="fas fa-quote-left"></i>
+                                    <p class="review-text">"Excellent products and fast shipping! Will definitely shop here again."</p>
+                                    <h3 class="review-author">- Ram Bahadur Thapa</h3>
+                                </div>
+                            </div>
+                           
+                            <!-- Add more reviews as needed -->
+                        </div>
+                        <div class="swiper-pagination"></div>
+                    </div>
+                </div>
+            </section>
+        </main>
+        
+        </div>
+    </div>
+      <!-- Main content ends -->
+      <footer id="footer">
+        <div class="container">
+          <div class="footer-menu-list">
+            <div class="row d-flex flex-wrap justify-content-between">
+              <div class="col-lg-3 col-md-6 col-sm-6">
+                <div class="footer-menu">
+                  <h5 class="widget-title">Snap Shop</h5>
+                  <ul class="menu-list list-unstyled">
+                    <li class="menu-item">
+                      <a href="about.html">About us</a>
+                    </li>
+                    <li class="menu-item">
+                      <a href="#">Conditions </a>
+                    </li>
+                    <li class="menu-item">
+                      <a href="blog.html">Our Journals</a>
+                    </li>
+                    <li class="menu-item">
+                      <a href="#">Affiliate Programme</a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+              <div class="col-lg-3 col-md-6 col-sm-6">
+                <div class="footer-menu">
+                  <h5 class="widget-title">Customer Service</h5>
+                  <ul class="menu-list list-unstyled">
+                    <li class="menu-item">
+                      <a href="faqs.html">FAQ</a>
+                    </li>
+                    <li class="menu-item">
+                      <a href="contact.html">Contact</a>
+                    </li>
+                    <li class="menu-item">
+                      <a href="#">Privacy Policy</a>
+                    </li>
+                    <li class="menu-item">
+                      <a href="#">Returns & Refunds</a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+              <div class="col-lg-3 col-md-6 col-sm-6">
+                <div class="footer-menu">
+                  <h5 class="widget-title">Contact Us</h5>
+                  <p>
+                    Do you have any questions or suggestions?
+                    <a href="#" class="email">ourservices@snapshop.com</a>
+                  </p>
+                  <p>
+                    Do you need assistance? Give us a call. <br />
+                    <strong>+977 061234567</strong>
+                  </p>
+                </div>
+              </div>
+              <div class="col-lg-3 col-md-6 col-sm-6">
+                <div class="footer-menu">
+                  <h5 class="widget-title">Forever 2024</h5>
+                  <p>
+                    Cras mattis sit ornare in metus eu amet adipiscing enim.
+                    Ullamcorper in orci, ultrices integer eget arcu.
+                  </p>
+                  <div class="social-links">
+                    <ul class="d-flex list-unstyled">
+                      <li>
+                        <a href="#">
+                          <i class="icon icon-facebook"></i>
+                        </a>
+                      </li>
+                      <li>
+                        <a href="#">
+                          <i class="icon icon-twitter"></i>
+                        </a>
+                      </li>
+                      <li>
+                        <a href="#">
+                          <i class="icon icon-youtube-play"></i>
+                        </a>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <hr />
+      </footer>
+          <!-- Footer ends -->
+          <div class="centered-text">
+            Designed and Developed by: Asmeet
+        </div>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+      crossorigin="anonymous"
+    ></script>
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+   <script src="about.js"></script>
+  </body>
+</html>
